@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">Labos 3</string>
+
+    //Dugmad
+    <string name="dugme1">Ja sam prvo</string>
+    <string name="dugme2">A ja drugo</string>
+    <string name="dugme3">Otvori me</string>
+    <string name="dugme4">Kill meee</string>
+
+    //Poruke
+    <string name="pocetna_poruka">Dodajte nekakav kod na mene...</string>
+    <string name="poruka1">Dugme 1 pritisnuto!</string>
+    <string name="poruka2">Dugme 2 pritisnuto!</string>
+
+
+</resources>
