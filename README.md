@@ -1,11 +1,9 @@
 # MAP-Labos-3
-Rješenje trećeg labosa iz predmeta Mobilne aplikacije VSITE studija.
+Rješenje osmog labosa iz predmeta Mobilne aplikacije VSITE studija.
 
 ## Zadatak
-Zadatak ovih labosa je bio dodati dvoje dugmadi i kućicu za prikaz statičkog teksta.
-Kad se pritisne neko dugme prikazati Toast poruku "Dugme 1/2 pritisnuto!" u ovisnosti koje od dva dugmeta je pritisnuto. 
-Za prvo dugme proceduru kreirati u anonimnoj klasi, dok je za drugu proceduru unutar aktivnosti. U oba dva slučaja
-kroz kod su povezane procedure s događajem kontrole.
+Zadatak ovih labosa je bio dodati dva TextView-a ("Životinja:", "Ptica:"), dva EditText-a i dvoje dugmadi("Spremi postavke", "Zapamtio").
+Klikom na dugme "Spremi postavke" spremiti vrijednosti pomoću SharedPreferences klase i dati Toast poruku "Promijenili ste omiljenu životinju iz X u Y. (Novi red) Promijenili ste omiljenu pticu iz X u Y." Gdje je X stara vrijednost a Y nova.
 
-Dodati još jedno dugme s tekstom "Otvori me". Kreirati novu aktivnost (koristimo Blanc template) koja sadrži samo jedno dugme s tekstom "Kill meee" na čiji pritisak se aktivnost završava (metoda finish). 
-Iz prve aktivnosti na pritisak navedenog dugmeta otvara se aktivnost.
+Dodati funkcionalnost koja će na svaku promjenu zapamtiti životinju i pticu (npr. majmun, noj;) u datoteci spremi.txt.
+Pritiskom na dugme "Zapamtio" ispisati tekst sa svim dosad zapamćenim vrijednostima.
